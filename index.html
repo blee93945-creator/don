@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brandon Lee Ago | Billiard Player &amp; Gamer</title>
+<meta name="description" content="Portfolio of Brandon Lee Ago, a billiard player and gamer from Bambang, Nueva Vizcaya.">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav" id="nav">
+  <div class="wrap nav__in">
+    <a href="#home" class="logo">Brandon<span>.</span>Ago</a>
+    <nav aria-label="Main">
+      <ul class="nav__links" id="menu">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#timeline">Journey</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="icon-btn" id="theme" aria-label="Toggle light and dark theme">◐</button>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero" id="home">
+  <div class="orb orb--a"></div><div class="orb orb--b"></div>
+  <div class="wrap hero__in">
+    <div class="hero__text">
+      <p class="chip">Bambang, Nueva Vizcaya</p>
+      <h1>Brandon Lee Ago</h1>
+      <p class="typing"><span id="typed"></span><i class="caret"></i></p>
+      <p class="lead">Just a boy with a big dream. I line up shots on the table and plan my plays on the screen, and I'm building the skills to turn both into something bigger.</p>
+      <div class="btns">
+        <a href="#projects" class="btn btn--main">View My Work</a>
+        <a href="#contact" class="btn btn--ghost">Contact Me</a>
+      </div>
+      <ul class="social" aria-label="Social media">
+        <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">Fb</a></li>
+        <li><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">Ig</a></li>
+        <li><a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub">Gh</a></li>
+        <li><a href="mailto:blee93945@gmail.com" aria-label="Email">@</a></li>
+      </ul>
+    </div>
+    <div class="hero__img glass">
+      <img src="profile.jpg" alt="Brandon Lee Ago standing on a mountain viewpoint overlooking a green valley" width="900" height="780">
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="wrap about">
+    <div class="about__img reveal left"><img src="profile.jpg" alt="Brandon Lee Ago taking a mirror selfie in a yellow shirt" loading="lazy" width="600" height="800"></div>
+    <div class="reveal right">
+      <h2>About me</h2>
+      <p>I'm Brandon, a young player from Bambang, Nueva Vizcaya. Billiards taught me patience and angles: every shot is a small plan. Gaming taught me teamwork, quick decisions and how to stay calm under pressure.</p>
+      <p>I finished my secondary education and I'm now looking for my next step, learning web development and building my first websites along the way. This portfolio is one of them.</p>
+      <div class="stats">
+        <div class="glass stat"><b data-count="5">0</b><span>Years playing</span></div>
+        <div class="glass stat"><b data-count="1">0</b><span>Website built</span></div>
+        <div class="glass stat"><b data-count="3">0</b><span>Technologies learning</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="skills">
+  <div class="wrap">
+    <h2 class="reveal">Skills</h2>
+    <p class="sub reveal">Honest levels: strong at the table and in-game, and just starting out with code.</p>
+    <div class="grid skills" id="skillGrid">
+      <article class="glass card reveal"><h3>Billiards</h3><p>Cue control, position play</p><div class="bar"><i data-w="80"></i></div></article>
+      <article class="glass card reveal"><h3>Gaming</h3><p>Strategy and reflexes</p><div class="bar"><i data-w="85"></i></div></article>
+      <article class="glass card reveal"><h3>Problem Solving</h3><p>Reading a situation fast</p><div class="bar"><i data-w="70"></i></div></article>
+      <article class="glass card reveal"><h3>Teamwork</h3><p>Communication in squads</p><div class="bar"><i data-w="75"></i></div></article>
+      <article class="glass card reveal"><h3>HTML</h3><p>Learning the basics</p><div class="bar"><i data-w="35"></i></div></article>
+      <article class="glass card reveal"><h3>CSS</h3><p>Learning the basics</p><div class="bar"><i data-w="30"></i></div></article>
+      <article class="glass card reveal"><h3>JavaScript</h3><p>Just getting started</p><div class="bar"><i data-w="20"></i></div></article>
+      <article class="glass card reveal"><h3>PHP, MySQL, Git</h3><p>Next on my list</p><div class="bar"><i data-w="10"></i></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <div class="wrap">
+    <h2 class="reveal">Projects</h2>
+    <p class="sub reveal">Sample projects that show where I'm headed. Real links go live as I finish each one.</p>
+    <div class="filters reveal" role="group" aria-label="Filter projects">
+      <button class="pill active" data-filter="all">All</button>
+      <button class="pill" data-filter="web">Web</button>
+      <button class="pill" data-filter="game">Games</button>
+      <button class="pill" data-filter="data">Data</button>
+    </div>
+    <div class="grid projects" id="projectGrid">
+      <article class="glass proj" data-cat="web"><div class="proj__img g1" role="img" aria-label="Portfolio website preview"></div><div class="proj__body"><h3>Personal Portfolio</h3><p>This responsive site with dark mode, animations and a validated contact form.</p><ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul><div class="btns"><button class="btn btn--sm btn--main" data-soon>Live Demo</button><button class="btn btn--sm btn--ghost" data-soon>Source Code</button></div></div></article>
+      <article class="glass proj" data-cat="game"><div class="proj__img g2" role="img" aria-label="Billiard scoreboard preview"></div><div class="proj__body"><h3>Billiard Score Tracker</h3><p>Track racks, fouls and match history for 8-ball and 9-ball games.</p><ul class="tags"><li>JavaScript</li><li>CSS</li></ul><div class="btns"><button class="btn btn--sm btn--main" data-soon>Live Demo</button><button class="btn btn--sm btn--ghost" data-soon>Source Code</button></div></div></article>
+      <article class="glass proj" data-cat="game"><div class="proj__img g3" role="img" aria-label="Tournament bracket preview"></div><div class="proj__body"><h3>Tournament Bracket</h3><p>Generate brackets for local billiard and gaming tournaments.</p><ul class="tags"><li>JavaScript</li><li>HTML</li></ul><div class="btns"><button class="btn btn--sm btn--main" data-soon>Live Demo</button><button class="btn btn--sm btn--ghost" data-soon>Source Code</button></div></div></article>
+      <article class="glass proj" data-cat="data"><div class="proj__img g4" role="img" aria-label="Player stats dashboard preview"></div><div class="proj__body"><h3>Player Stats Dashboard</h3><p>Store wins, losses and accuracy in a database and chart progress.</p><ul class="tags"><li>PHP</li><li>MySQL</li></ul><div class="btns"><button class="btn btn--sm btn--main" data-soon>Live Demo</button><button class="btn btn--sm btn--ghost" data-soon>Source Code</button></div></div></article>
+      <article class="glass proj" data-cat="web"><div class="proj__img g5" role="img" aria-label="Pool hall booking preview"></div><div class="proj__body"><h3>Pool Hall Booking</h3><p>A simple page for reserving tables and viewing hourly rates.</p><ul class="tags"><li>HTML</li><li>CSS</li><li>PHP</li></ul><div class="btns"><button class="btn btn--sm btn--main" data-soon>Live Demo</button><button class="btn btn--sm btn--ghost" data-soon>Source Code</button></div></div></article>
+      <article class="glass proj" data-cat="data"><div class="proj__img g6" role="img" aria-label="Game library preview"></div><div class="proj__body"><h3>Game Library Manager</h3><p>Catalog the games I play with ratings, notes and playtime.</p><ul class="tags"><li>JavaScript</li><li>MySQL</li><li>Git</li></ul><div class="btns"><button class="btn btn--sm btn--main" data-soon>Live Demo</button><button class="btn btn--sm btn--ghost" data-soon>Source Code</button></div></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="services">
+  <div class="wrap">
+    <h2 class="reveal">Services</h2>
+    <p class="sub reveal">What I'm working toward offering as my skills grow.</p>
+    <div class="grid services">
+      <article class="glass card reveal"><h3>Web Development</h3><p>Simple, responsive pages for small businesses and players.</p></article>
+      <article class="glass card reveal"><h3>Database Development</h3><p>Organized records using MySQL for scores, members and inventory.</p></article>
+      <article class="glass card reveal"><h3>System Development</h3><p>Small tools such as trackers, booking forms and dashboards.</p></article>
+      <article class="glass card reveal"><h3>Network Setup</h3><p>Basic home and shop Wi-Fi setup for stable connections.</p></article>
+      <article class="glass card reveal"><h3>IT Support</h3><p>Friendly help with everyday computer and phone problems.</p></article>
+      <article class="glass card reveal"><h3>Game Coaching</h3><p>Tips on aiming, positioning and staying composed in matches.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="timeline">
+  <div class="wrap">
+    <h2 class="reveal">Journey</h2>
+    <ol class="timeline">
+      <li class="reveal left"><time>Education</time><h3>Secondary Education</h3><p>Completed high school and built the discipline to keep learning.</p></li>
+      <li class="reveal right"><time>Experience</time><h3>Competitive Play</h3><p>Years of casual and competitive billiards and online games with friends.</p></li>
+      <li class="reveal left"><time>Major project</time><h3>First Website</h3><p>Designed and coded this portfolio from scratch.</p></li>
+      <li class="reveal right"><time>Next</time><h3>Certifications</h3><p>Planning web development and IT fundamentals courses.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="section alt" id="contact">
+  <div class="wrap contact">
+    <div class="reveal left">
+      <h2>Let's talk</h2>
+      <p class="sub">Want to play a match, team up, or build something together? Send me a message.</p>
+      <ul class="info">
+        <li><span>Email</span><a href="mailto:blee93945@gmail.com">blee93945@gmail.com</a></li>
+        <li><span>Phone</span><a href="tel:+639304910343">0930 491 0343</a></li>
+        <li><span>Location</span>Bambang, Nueva Vizcaya</li>
+      </ul>
+      <ul class="social" aria-label="Social media">
+        <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">Fb</a></li>
+        <li><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">Ig</a></li>
+        <li><a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub">Gh</a></li>
+      </ul>
+    </div>
+    <form class="glass form reveal right" id="form" novalidate>
+      <label>Name<input type="text" id="name" name="name" autocomplete="name"><small class="err"></small></label>
+      <label>Email<input type="email" id="email" name="email" autocomplete="email"><small class="err"></small></label>
+      <label>Subject<input type="text" id="subject" name="subject"><small class="err"></small></label>
+      <label>Message<textarea id="message" name="message" rows="5"></textarea><small class="err"></small></label>
+      <button class="btn btn--main" type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__in">
+    <div><a href="#home" class="logo">Brandon<span>.</span>Ago</a><p>Billiard player and gamer with a big dream.</p></div>
+    <ul class="social" aria-label="Social media">
+      <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">Fb</a></li>
+      <li><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">Ig</a></li>
+      <li><a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub">Gh</a></li>
+    </ul>
+    <p class="copy">&copy; <span id="year">2026</span> Brandon Lee Ago. All rights reserved.</p>
+  </div>
+</footer>
+<button class="top" id="top" aria-label="Back to top">↑</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
